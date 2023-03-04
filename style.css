@@ -29,13 +29,12 @@
     width: 60px;
     height: 85px;
     background: url(img/doodle.png);
-    /* background-color: red; */
     position: absolute;
 }
 .platform{
     width: 70px;
     height: 10px;
-    background-color: green;
+    background-color: rgba(23, 131, 32, 0.705);
     border-radius: 5px;
     position: absolute;
 }
