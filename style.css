@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid{
+    height: 100vh;
+    display: flex;
+    width: 400px;
+    height: 600px;
+    background: url(background.jpg);
+    position: relative;
+    font-size: 100px;
+    align-content: center;
+    justify-content: center;
+}
+.doodler{
+    width: 60px;
+    height: 85px;
+    background: url(doodle.png);
+    /* background-color: red; */
+    position: absolute;
+}
+.platform{
+    width: 70px;
+    height: 10px;
+    background-color: green;
+    border-radius: 5px;
+    position: absolute;
+}
